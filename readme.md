@@ -15,6 +15,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [Video](#video)
 - [Code](#code)
 - [Functions as a Service FaaS](#functions-as-a-service)
+- [GraphQL](#GraphQL)
 - [Community](#community)
   - [Comments](#comments)
   - [Forms](#forms)
@@ -23,6 +24,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
   - [Social Media](#social-media)
   - [Surveys](#surveys)
 - [E-Commerce](#e-commerce)
+- [Payments](#payments)
 - [Search](#search)
 - [Analytics](#analytics)
 - [Other](#other)
@@ -50,6 +52,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ## Images
 
 - [Flickr](https://www.flickr.com/) - Online photo hosting by Yahoo.
+- [Cloudinary](https://cloudinary.com/) - Image hosting, manipulation and delivery.
 
 ## Maps
 
@@ -65,10 +68,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Video
 
+- [Mux](https://mux.com/) - Paid - An API to play videos directly to the client. Can also power live streams.
 - [YouTube](https://www.youtube.com/) - Embeddable videos with unlimited uploads.
 - [Vimeo](https://vimeo.co/) - Paid - Embeddable videos with no ads.
 - [Vevo](http://www.vevo.com/) - Embeddable music videos.
-- [Vine](https://vine.co/) - Embeddable vine videos.
 - [Wistia](http://wistia.com/) - Free plan has a limit of 25 videos.
 
 ### Code
@@ -79,6 +82,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [highlight.js](https://highlightjs.org/) - Syntax highlighting for the web.
 
 ## Functions as a Service
+
 - [1Backend](https://1backend.com) - Deploy your backend in seconds. Free tier included. Open source.
 - [AWS Lambda](https://aws.amazon.com/lambda/) - AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume
 - [Google Cloud Functions](https://cloud.google.com/functions/) - Create single-purpose, stand-alone functions that respond to Cloud events without the need to manage a server or runtime environment
@@ -87,6 +91,12 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [IronWorkers](https://www.iron.io/platform/ironworker/) - by Iron.io - Run code in a multilanguage containerized environment with unlimited scale and simple pricing
 - [IronFunctions](http://open.iron.io/) - by Iron.io - IronFunctions is an open source serverless computing platform for any cloud - private, public, or hybrid.
 - [OpenWhisk by IBM](https://console.ng.bluemix.net/openwhisk/) - part of their BlueMix hosting platform, and open source, ties into their Watson AI ecosystem nicely
+- [StackPath EdgeEngine](https://www.stackpath.com/products/edgeengine/) - Write functions as a service in the language of your choice and deploy them to a global network of data centers. All the networking, including intelligent routing and load balancing, is managed by StackPath over a private backbone.
+- [Zeit Now](https://zeit.co/now#features) - Zeit Now lets people write functions as a service in their language of choice and deploy as part of a monorepo.
+
+## GraphQL
+
+- [FaunaDB](https://fauna.com) - Serverless GraphQL database. Free tier with no time limit. Easily included in Netlify apps.
 
 ## Community
 
@@ -99,6 +109,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [LiveFyre](http://web.livefyre.com/apps/comments/) - Real-time comments, SEO-optimized, stocked with social features, and beautiful on both desktop and mobile.
 - [Redditjs Embed Widget](http://embed.redditjs.com/) - Embed Reddit comments on your site. If it hasn't been posted, it will show a link to encourage the user to submit.
 - [Muut.com](https://muut.com/) - Embeddable comments, forum and private messaging. A lot of functionality, but really low footprint left on your website.
+- [Gitment](https://github.com/imsun/gitment) - Comment system based on GitHub Issues, which can be used in the frontend without any server-side implementation.
 
 ### Forms
 
@@ -111,13 +122,14 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [Simple Form](https://getsimpleform.com/) - Simple forms with optional file attachments, email notifications, and online submission viewing.
 - [Brisk Forms](https://github.com/stevensona/briskforms) - Free form submission service emails you responses while keeping your email address private and is open source.
 - [99 Inbound](https://www.99inbound.com) - Form endpoint service with email/Slack notifications and third party app integrations (e.g. MailChimp)
+- [Getform](http://getform.io/) - Form backend platform for designers and developers, with email and integrations.
 
 #### Normal Forms
 
 - [Google Forms](https://www.google.com/forms/about/) - Saves results into Google Sheets and can email you when there is a submission.
 - [FormKeep](https://formkeep.com/) - Paid - View form submissions in a beautiful web interface. It has spam filtering and it integrates with webhooks such as Gmail, Trello, and Basecamp.
 - [123 Contact Form](http://www.123contactform.com/) - Connects to other online services such at MailChimp, Salesforce, and Google Drive. It also integreates with payment Processers and includes security and analytics.
-- [FormAssembly](http://www.formassembly.com/)
+- [FormAssembly](http://www.formassembly.com/) - Allows you to build any kind of form that can include complex branching logic and multiple pages.
 - [FormSite](https://www.formsite.com/) - Form buider, with payments, and form management.
 - [FormStack](https://www.formstack.com/) - Forms with A/B testing, partial submission, analytics, and integrations.
 - [Sheetsu](https://sheetsu.com/) - POST and GET your data to Google Spreadsheet.
@@ -129,6 +141,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [FormBackend](https://www.formbackend.com) - Create form-backends and submit your HTML forms to our backend. View the entries online and connect to other services. Receive an email every time a new entry is submitted.
 - [Pageclip](https://pageclip.co) - A flexible server / backend for HTML forms. View your data in the realtime web interface, or use the API to get CSV and JSON output.
 - [Formester](https://www.formester.com) - Forms and email marketing (lead collection, email campaigns, and newsletters) with integrations.
+- [StaticKit](https://statickit.com) - Modern forms for static sites, with native support for React.
 
 #### Provided by the Host
 
@@ -167,6 +180,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [SurveyMonkey](https://www.surveymonkey.com/) - Easy to use and free surveys.
 - [Typeform](http://www.typeform.com/) - Really beautiful forms.
 - [Qualaroo](https://qualaroo.com/) - Embed surveys anywhere on your website that comes up from the bottom right side of the screen.
+- [Insight Stash](https://insightstash.com/) - Fast, Simple survey forms.
 
 ## E-Commerce
 
@@ -174,16 +188,27 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [FoxyCart](http://www.foxycart.com/) - Add a shopping cart with basic html code.
 - [SnipCart](https://snipcart.com/) - Include a few lines of code for a full online shop.
 - [Gumroad](https://gumroad.com/) - An all-in-one solution to sell your work.
+- [Payhip](https://payhip.com/) - An embeddable way to sell digital downloads & memberships
+- [Moltin](https://moltin.com/) - Add eCommerce functionality to anything.
+- [Trolley](https://trolley.link/) - Add a popup cart to any website - designed for static & JAMstack sites.
+- [Commerce Layer](https://commercelayer.io/) - Add enterprise ecommerce to your JAMstack.
+
+## Payments
+
+ - [MoneyButton](https://www.moneybutton.com/) - Website payments and donations using Bitcoin (Satoshi's Vision).
+ - [ShapeShift Shifty Button](https://info.shapeshift.io/tools/shifty-button) - Accept payments using various cryptocurrencies.
 
 ## Search
 
 - [lunr.js](http://lunrjs.com/) - Simple full-text search in your browser.
 - [Google Custom Search Engine](https://cse.google.com/cse/) - Search your site with a custom Google Search.
 - [Algolia](https://www.algolia.com/) - Hosted Search API that delivers instant and relevant results from the first keystroke.
+- [CloudSh](https://cloudsh.com/) - Powerful search for your website with a few lines of JavaScript.
 
 ## Analytics
 
-- [Google Analytics](http://www.google.com/analytics/) - Free website analytics.
+- [Google Analytics](http://www.google.com/analytics/) - Freemium web analytics service offered by Google.
+- [Simple Analytics](https://simpleanalytics.io/) - 💲 - Simple, clean, and friendly analytics.
 
 ## Other
 
